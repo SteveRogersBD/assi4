@@ -8,11 +8,10 @@ type ContactCardProps = {
 function ContactCard({ name, email, department, phone }: ContactCardProps) {
   return (
     <article className="contact-card">
-      {/* TODO 3: Replace the placeholders below with values from props. */}
-      <h3>Contact Name</h3>
-      <p><strong>Department:</strong> Department</p>
-      <p><strong>Email:</strong> Email</p>
-      <p><strong>Phone:</strong> Phone</p>
+      <h3>{name}</h3>
+      <p><strong>Department:</strong> {department}</p>
+      <p><strong>Email:</strong> {email}</p>
+      <p><strong>Phone:</strong> {phone}</p>
     </article>
   );
 }
