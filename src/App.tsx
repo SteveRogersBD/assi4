@@ -40,10 +40,10 @@ function App() {
       <section className="featured">
         <h2>Featured Contact</h2>
 
-        {/* TODO 3: Display the selected contact's name and department.
-            Use contacts[selectedIndex].name and contacts[selectedIndex].department. */}
+        <p className="featured-name">{contacts[selectedIndex].name}</p>
+        <p className="featured-department">{contacts[selectedIndex].department}</p>
 
-        {/* TODO 4: Add a button that calls showNextContact when clicked. */}
+        <button type="button" onClick={showNextContact}>Next Contact</button>
       </section>
 
       <section>
