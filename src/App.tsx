@@ -50,11 +50,15 @@ function App() {
         <h2>All Contacts</h2>
 
         <div className="contact-grid">
-          {/* TODO 5: Use contacts.map(...) to generate one ContactCard per contact.
-              Requirements:
-              - key={contact.id}
-              - pass name, email, department, and phone as props
-              - do NOT manually write eight ContactCard components */}
+          {contacts.map((contact) => (
+            <ContactCard
+              key={contact.id}
+              name={contact.name}
+              email={contact.email}
+              department={contact.department}
+              phone={contact.phone}
+            />
+          ))}
         </div>
       </section>
     </main>
