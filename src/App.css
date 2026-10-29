@@ -44,14 +44,40 @@
 }
 
 .contact-card {
-  border: 1px solid #bbb;
+  border: 1px solid #d5dce5;
   border-radius: 10px;
   padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(31, 41, 55, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(31, 41, 55, 0.12);
+}
+
+.contact-card h3 {
+  margin-top: 0;
 }
 
 button {
   padding: 0.6rem 1rem;
+  border: 0;
+  border-radius: 6px;
+  background-color: #1d4ed8;
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
   cursor: pointer;
 }
 
-/* TODO: Add at least two meaningful style improvements of your own. */
+button:hover,
+button:focus-visible {
+  background-color: #1e40af;
+}
+
+button:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 2px;
+}
