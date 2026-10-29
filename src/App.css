@@ -13,10 +13,28 @@
 }
 
 .featured {
-  padding: 1rem 1.25rem;
-  border: 1px solid #bbb;
+  padding: 1.5rem;
+  border: 1px solid #a8c6e5;
   border-radius: 10px;
   margin-bottom: 2rem;
+  background-color: #eaf3ff;
+  box-shadow: 0 8px 18px rgba(31, 41, 55, 0.08);
+}
+
+.featured h2 {
+  margin-top: 0;
+  color: #17324d;
+}
+
+.featured-name {
+  margin: 0.25rem 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.featured-department {
+  margin-top: 0;
+  color: #4b6480;
 }
 
 .contact-grid {
