@@ -1,8 +1,9 @@
-// TODO 1: Define a ContactCardProps type with these four properties:
-// name: string
-// email: string
-// department: string
-// phone: string
+type ContactCardProps = {
+  name: string;
+  email: string;
+  department: string;
+  phone: string;
+};
 
 // TODO 2: Complete ContactCard so it receives typed props.
 // You may use props.name / props.email / ... OR destructuring.
