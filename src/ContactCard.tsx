@@ -5,9 +5,7 @@ type ContactCardProps = {
   phone: string;
 };
 
-// TODO 2: Complete ContactCard so it receives typed props.
-// You may use props.name / props.email / ... OR destructuring.
-function ContactCard(/* TODO: typed props go here */) {
+function ContactCard({ name, email, department, phone }: ContactCardProps) {
   return (
     <article className="contact-card">
       {/* TODO 3: Replace the placeholders below with values from props. */}
