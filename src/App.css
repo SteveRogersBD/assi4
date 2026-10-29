@@ -1,0 +1,39 @@
+#root {
+  width: 100%;
+}
+
+.page {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.featured {
+  padding: 1rem 1.25rem;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.contact-card {
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+
+/* TODO: Add at least two meaningful style improvements of your own. */
