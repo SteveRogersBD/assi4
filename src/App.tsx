@@ -26,10 +26,9 @@ const contacts: Contact[] = [
 function App() {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
-  // TODO 2: Create a function named showNextContact().
-  // It should move selectedIndex to the next contact.
-  // When the last contact is reached, it should return to index 0.
-  // Hint: use contacts.length and the % operator.
+  function showNextContact() {
+    setSelectedIndex((selectedIndex + 1) % contacts.length);
+  }
 
   return (
     <main className="page">
